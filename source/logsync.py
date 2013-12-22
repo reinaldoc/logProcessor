@@ -1,12 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# processLog v0.1-20091018
-# Copyright (c) 2009 - Reinaldo de Carvalho <reinaldoc@gmail.com>
+# logsync 0.1 - a framework to load log into database
+# Copyright (c) 2009-2013 - Reinaldo Gil Lima de Carvalho <reinaldoc@gmail.com>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
-# the Free Software Foundation; either version 2 of the License, or
-# (at your option) any later version.
+# the Free Software Foundation; version 2 of the License only
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -17,13 +16,19 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA.
 
+"""
+logsync - a framework to load log into database
+
+"""
+
+__author__ =  'Reinaldo Gil Lima de Carvalho'
+__version__ = "0.1"
+
 from time import sleep
 import sys
 import traceback
 import config
 import modules
-
-__version__ = "processLog v0.1-20091018"
 
 #
 # Exception classes
